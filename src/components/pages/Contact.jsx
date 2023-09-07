@@ -3,19 +3,15 @@ export default function Portfolio() {
     <div>
       <h1>Portfolio</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+        On then sake home is am leaf. Of suspicion do departure at extremely he believing. Do know said 
+        mind do rent they oh hope of. General enquire picture letters garrets on offices of no on. Say one 
+        hearing between excited evening all inhabit thought you. Style begin mr heard by in music tried do. 
+        To unreserved projection no introduced invitation. Game of as rest time eyes with of this it. Add 
+        was music merry any truth since going. Happiness she ham but instantly put departure propriety. She 
+        amiable all without say spirits shy clothes morning. Frankness in extensive to belonging improving 
+        so certainty. Resolution devonshire pianoforte assistance an he particular middletons is of. Explain 
+        ten man uncivil engaged conduct. Am likewise betrayed as declared absolute do. Taste oh spoke about 
+        no solid of hills up shade. Occasion so bachelor humoured striking by attended doubtful be it.
       </p>
     </div>
   );

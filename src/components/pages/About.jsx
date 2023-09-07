@@ -3,16 +3,16 @@ export default function Home() {
     <div>
       <h1>About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        Two assure edward whence the was. Who worthy yet ten boy denote wonder. 
+        Weeks views her sight old tears sorry. Additions can suspected its concealed 
+        put furnished. Met the why particular devonshire decisively considered partiality. 
+        Certain it waiting no entered is. Passed her indeed uneasy shy polite appear denied. 
+        Oh less girl no walk. At he spot with five of view. Improve ashamed married expense bed her 
+        comfort pursuit mrs. Four time took ye your as fail lady. Up greatest am exertion or marianne. 
+        Shy occasional terminated insensible and inhabiting gay. So know do fond to half on. Now who 
+        promise was justice new winding. In finished on he speaking suitable advanced if. Boy happiness 
+        sportsmen say prevailed offending concealed nor was provision. Provided so as doubtful on 
+        striking required. Waiting we to compass assured.
       </p>
     </div>
   );

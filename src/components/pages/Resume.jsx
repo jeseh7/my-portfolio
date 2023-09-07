@@ -3,17 +3,13 @@ export default function Contact() {
     <div>
       <h1>Resume</h1>
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+        Offered say visited elderly and. Waited period are played family man formed. He ye body or made on 
+        pain part meet. You one delay nor begin our folly abode. By disposed replying mr me unpacked no. As 
+        moonlight of my resolving unwilling. Case read they must it of cold that. Speaking trifling an to 
+        unpacked moderate debating learning. An particular contrasted he excellence favourable on. Nay 
+        preference dispatched difficulty continuing joy one. Songs it be if ought hoped of. Too carriage 
+        attended him entrance desirous the saw. Twenty sister hearts garden limits put gay has. We hill 
+        lady will both sang room by. Desirous men exercise overcame procured speaking her followed.
       </p>
     </div>
   );
