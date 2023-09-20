@@ -1,57 +1,52 @@
-import '../App.css'
-function NavTabs({ currentPage, handlePageChange }) {
+import { Link, useLocation } from 'react-router-dom';
+
+// Here we are using object destructuring assignment to pluck off our variables from the props object
+// We assign them to their own variable names
+function NavTabs() {
+  const currentPage = useLocation().pathname;
+
   return (
-    <ul className="nav nav-tabs p-5 nav-background d-flex justify-content-around">
-      <li className="nav-item">
-        <div className="fs-1 text-white shadow">
-          Jese
-        </div>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-          //  TODO: Add a comment explaining what this logic is doing
-
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
+    <p className="fs-1 p-1 mb-2 bg-warning text-dark">Jese
+      <ul className="nav nav-tabs bg-warning d-flex justify-content-end">
+        <li className="nav-item">
+          <Link
+            to="/About"
+            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+            className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          >
+            About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Portfolio"
+            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+          >
+            Portfolio
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Contact"
+            // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Resume"
+            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+          >
+            Resume
+          </Link>
+        </li>
+      </ul>
+    </p>
   );
 }
 

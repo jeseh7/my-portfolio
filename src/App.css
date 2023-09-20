@@ -1,3 +1,200 @@
-.nav-background{
-    background-image: url("../images/blue-wave-pattern-background-featuring-public-domain-artworks_53876-112136.avif")
+:root{
+    --image-height: 30vh;
+    --image-width: 70vh;
+    --lighter-blue: lightblue;
+    --darker-blue: slateblue;
+    --four-margin: 10px;
+    --four-border: 4px solid lightblue;
+}
+
+*{
+    font-family: "Times New Roman";
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(65, 65, 65);
+    justify-content: space-between;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    font-size: 50px;
+    text-indent: 100px;
+    color: rgb(65, 65, 65);
+    margin: 10px 0;
+    background-color: var(--lighter-blue);
+    background-position: 5px;
+    padding-right: 10px;
+}
+
+nav ul{
+    font-size: 20px;
+    text-align: right;
+    padding: 20px;
+}
+
+nav ul li{
+    color: var(--lighter-blue);
+    padding: 5px 10px;
+    margin: 0 15px;
+    border-bottom: 5px solid var(--lighter-blue);
+    display: inline; 
+}
+
+h3{
+    color: var(--darker-blue);
+    font-size: 40px;
+    text-align: right;
+}
+
+footer ul{
+    padding: 30px 0;
+}
+footer ul li{
+    display: inline;
+    color: darkslategray;
+    padding: 5px 10px;
+    margin: 0 15px;
+    border-bottom: 5px solid var(--darker-blue);
+}
+
+.hero{
+    min-height: 20vh;
+    background-image: url("../images/barn-door.jpeg");
+    background-size: cover;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-container > h3{
+    flex-basis: 20%;
+    border-right: 2px solid var(--darker-blue);
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.about-container > p{
+    flex-basis: 70%;
+}
+
+.work-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.work-container > h3{
+    flex-basis: 20%;
+    border-right: 2px solid var(--darker-blue);
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.work-container > div{
+    flex-basis: 70%;
+}
+
+
+.four-images{
+    display: flex;
+}
+
+.match-width{
+    width: 70vh;
+}
+
+.surf{
+    background-image: url("../images/surf-report.jpeg");
+    background-size: cover;
+    min-height: 80vh;
+    width: 143vh;
+    opacity: 0.5;
+    transition: 0.3s;
+    border: var(--four-border);
+}
+.surf:hover{
+    opacity: 1;
+}
+.led{
+    background-image: url("../images/led-wall.jpeg"); 
+    background-size: cover; 
+    min-height: var(--image-height);
+    width: var(--image-width);
+    margin: 10px 10px 10px 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: var(--four-border);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.led:hover{
+    opacity: 1;
+}
+.calculator{
+    background-image: url("../images/calculator.jpeg");
+    background-size: cover;
+    min-height: var(--image-height);
+    width: var(--image-width);
+    margin: 10px 10px 10px 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: var(--four-border);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.calculator:hover{
+    opacity: 1;
+}
+.pastel{
+    background-image: url("../images/pastel-puzzles.jpeg");
+    background-size: cover;
+    min-height: var(--image-height);
+    width: var(--image-width);
+    margin: var(--four-margin);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: var(--four-border);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.pastel:hover{
+    opacity: 1;
+}
+.run{
+    background-image: url("../images/run-buddy.jpeg");
+    background-size: cover;
+    min-height: var(--image-height);
+    width: var(--image-width);
+    margin: var(--four-margin);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: var(--four-border);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.run:hover{
+    opacity: 1;
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-me > h3{
+    flex-basis: 20%;
+    border-right: 2px solid var(--darker-blue);
+    margin-right: 20px;
+    padding-right: 10px;
 }
